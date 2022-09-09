@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter binary number:" BINARY
+
+echo $((2#$BINARY))
